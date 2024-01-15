@@ -59,7 +59,13 @@ console.log(found);
 
 //The switch statement
 
-console.setAttribute("Enter a month number: ");
+// Look for something like this
+
+let enterMonth = prompt('Please enter something:');
+console.log('User entered:', enterMonth);
+
+
+// console.setAttribute("Enter a month number: ");
 var monthNum = readline();
 var monthName;
 switch (monthNum) {
@@ -103,3 +109,5 @@ switch (monthNum) {
  console.log("Bad input");
 }
 
+// Instead of setAttribute, use console.log
+console.log('Logging something...');
