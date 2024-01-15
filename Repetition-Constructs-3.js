@@ -39,3 +39,12 @@ for (var i = 0; i < numbers.length; ++i) {
  sum += numbers[i];
 }
 console.log(sum); // displays 144
+
+// Comparison operators
+
+const assert = require('assert');
+
+assert.equal(3 < 4, true);
+assert.equal(3 <= 4, true);
+assert.equal('abc' === 'abc', true);
+assert.equal('abc' !== 'def', true);
