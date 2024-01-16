@@ -109,5 +109,6 @@ switch (monthNum) {
  console.log("Bad input");
 }
 
+
 // Instead of setAttribute, use console.log
 console.log('Logging something...');
